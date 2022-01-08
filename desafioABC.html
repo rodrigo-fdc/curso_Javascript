@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio A-B-C</title>
+
+<script>
+
+   var a = 10
+   var b = 20
+   var c = null //Variável auxiliar utilizada na lógica
+
+   document.write('A: ' + a + '</br>' )
+   document.write('B: ' + b + '</br>' )
+   document.write('C: ' + c + '</br>' )
+
+   document.write('<hr/>')
+
+   //Lógica de inversões dos valores das variáveis A e B
+
+   var c = a //a variavel c recebe o valor de a temporariamente
+   var a = b //a sobrepoem o valor de b
+   var b = c //b recebe o valor armazenado de a
+   var c = null //remove o valor de a retornando para o valor inicial null
+
+   document.write('A: ' + a + '</br>' )
+   document.write('B: ' + b + '</br>' )
+   document.write('C: ' + c + '</br>' )
+
+</script>
+    
+</head>
+<body>
+        
+</body>
+</html>
